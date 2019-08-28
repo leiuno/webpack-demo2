@@ -1,0 +1,29 @@
+{
+  "name": "webpack-demo2",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "build": "webpack", 
+    "watch": "webpack --watch", 
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leiuno/webpack-demo2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leiuno/webpack-demo2/issues"
+  },
+  "homepage": "https://github.com/leiuno/webpack-demo2#readme",
+  "devDependencies": {
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}
