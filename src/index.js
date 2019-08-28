@@ -1,12 +1,6 @@
-import _ from 'lodash';
 
-function component() {
-  const element = document.createElement('div');
+let array1 = [1, 4, 9, 16];
 
-  // Lodash, currently included via a script, is required for this line to work
-  element.innerHTML = _.join(['Hello', 'webpack'], ' ');
+const map1 = array1.map(x => x * 2);
 
-  return element;
-}
-
-document.body.appendChild(component());
+console.log(map1)
